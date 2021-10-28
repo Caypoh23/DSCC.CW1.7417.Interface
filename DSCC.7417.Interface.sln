@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSCC.7417.Interface", "DSCC.7417.Interface\DSCC.7417.Interface.csproj", "{128BA12E-1204-4734-806A-D182681709D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{128BA12E-1204-4734-806A-D182681709D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128BA12E-1204-4734-806A-D182681709D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128BA12E-1204-4734-806A-D182681709D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128BA12E-1204-4734-806A-D182681709D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F560E899-07B4-45BA-AD99-1D0B590C1A4B}
+	EndGlobalSection
+EndGlobal
