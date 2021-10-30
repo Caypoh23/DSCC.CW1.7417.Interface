@@ -1,5 +1,7 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Web.Mvc;
 
 namespace DSCC._7417.Interface.Models
 {
@@ -13,12 +15,15 @@ namespace DSCC._7417.Interface.Models
         public string ProductName { get; set; }
 
         public int CategoryId { get; set; }
-        public Category Category { get; set; }
+        [DisplayName("Category")]
+        public Category ProductCategory { get; set; }
 
         public string Description { get; set; }
 
         [Required(ErrorMessage = "Price cannot be empty")]
         [Range(0, int.MaxValue, ErrorMessage = "Price cannot be negative value")]
         public string Price { get; set; }
+
+        public SelectList Categories { get; set; }
     }
 }
