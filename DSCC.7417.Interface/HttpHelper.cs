@@ -12,7 +12,7 @@ namespace DSCC._7417.Interface
     public class HttpHelper
     {
         // constant variable is created to make sure that the base url cannot be changed by others
-        private const string _baseUrl = "http://localhost:37013";
+        private const string _baseUrl = "http://ec2-18-117-216-201.us-east-2.compute.amazonaws.com/";
 
         public static HttpClient HttpClientHelper = new HttpClient()
         {
