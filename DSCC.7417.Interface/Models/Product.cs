@@ -21,8 +21,7 @@ namespace DSCC._7417.Interface.Models
         public string Description { get; set; }
 
         [Required(ErrorMessage = "Price cannot be empty")]
-        [Range(0, int.MaxValue, ErrorMessage = "Price cannot be negative value")]
-        public string Price { get; set; }
+        public decimal Price { get; set; }
 
         public SelectList Categories { get; set; }
     }
